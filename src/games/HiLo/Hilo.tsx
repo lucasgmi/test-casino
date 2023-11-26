@@ -107,6 +107,7 @@ export default function HiLo() {
       const res = await gamba.play({
         bet,
         wager: profit || initialWager,
+        creatorFee: 0.05,
       })
 
       setLoading(true)
