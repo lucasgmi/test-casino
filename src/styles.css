@@ -3,7 +3,7 @@
 }
 
 :root {
-  --bg-color: #0b0b0e;
+  --bg-color: radial-gradient(#00ffa3, #dc1fff);
   --text-color: #ffffff;
   --recent-plays-bg: #13151c;
   --recent-plays-bg-hover: #1a1c24;
@@ -129,12 +129,12 @@ a {
 
 .gamba-game-button.primary {
   min-width: 100px;
-  background: #a079ff;
+  background: #050408;
   color: white;
 }
 
 .gamba-game-button.primary:hover {
-  background: #9468ff;
+  background: #2a2047;
 }
 
 .gamba-game-ui-group {

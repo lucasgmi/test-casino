@@ -7,10 +7,10 @@ import Roulette from './Roulette'
 import HiLo from './HiLo'
 
 export const GAMES: GameBundle[] = [
+  Flip,
   Dice,
   HiLo,
   Roulette,
   Slots,
   Mines,
-  Flip,
 ]
